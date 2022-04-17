@@ -215,3 +215,8 @@ td{
     justify-content: flex-end;
     flex-wrap: nowrap;
 }
+
+.Butt{
+    max-width: 50px;
+    max-height: 50px;
+}
