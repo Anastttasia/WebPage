@@ -16,13 +16,13 @@ h1,h2,h3{
 }
 
 p{
-    font-size: 26px ;
+    font-size: 25px ;
 }
 
 .topHeader {
     width: 100%;
     /* Лучше задавать максимальную ширину родительскому блоку */
-    max-width: 4300px;
+    /* max-width: 4300px; */
     margin: 0 auto;
 }
 
@@ -91,6 +91,7 @@ a:hover{
 
 .blockForText{
     width: 448px;
+    max-width: 12%;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
@@ -155,7 +156,8 @@ a:hover{
 
 table{
     margin-top: 70px;
-    width: 900px;
+    max-width: 40%;
+    /* width: 900px; */
     font-size: 25px ;
 }
 
@@ -198,7 +200,8 @@ td{
 }
 
 .contacts{
-    width: 800px;
+    max-width:36% ;
+    /* width: 800px; */
     height: 250px;
     display: flex;
     justify-content: flex-start;
@@ -206,7 +209,8 @@ td{
 }
 
 .bottomButton{
-    width: 100px;
+    max-width: 5%;
+    /* width: 100px; */
     height: 50px;
     display: flex;
     flex-wrap: nowrap;
