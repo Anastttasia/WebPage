@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,400&display=swap');
 
 body{
+    width: 100%;
     background: #C4C4C4;
     font-family: 'Montserrat';
     font-size: 20px;
@@ -135,10 +136,10 @@ a:hover{
 
 .blockBenefits{
     width: 100%;
-    height: 56px;
+    height: 210px;
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 30px;
 
 }
 
@@ -217,6 +218,6 @@ td{
 }
 
 .Butt{
-    max-width: 50px;
-    max-height: 50px;
+    max-width: 70px;
+    max-height: 70px;
 }
