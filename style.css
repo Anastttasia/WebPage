@@ -57,9 +57,9 @@ p{
 a{
     font-size: 20px;
     color: #363333;
-    text-decoration: none;
+    /* text-decoration: none;
     display: flex;
-    align-content: center;
+    align-content: center; */
 }
 
 a:hover{
