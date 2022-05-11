@@ -55,9 +55,6 @@ p{
 a{
     font-size: 20px;
     color: #363333;
-    /* text-decoration: none;
-    display: flex;
-    align-content: center; */
 }
 
 a:hover{
@@ -198,7 +195,6 @@ td{
 
 .contacts{
     max-width:36% ;
-    /* width: 800px; */
     height: 250px;
     display: flex;
     justify-content: flex-start;
