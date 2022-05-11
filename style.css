@@ -4,7 +4,6 @@ body{
     width: 100%;
     background: #C4C4C4;
     font-family: 'Montserrat';
-    font-size: 20px;
     color: black;
 }
 
@@ -22,8 +21,6 @@ p{
 
 .topHeader {
     width: 100%;
-    /* Лучше задавать максимальную ширину родительскому блоку */
-    /* max-width: 4300px; */
     margin: 0 auto;
 }
 
@@ -152,7 +149,6 @@ a:hover{
     align-self: center;
     text-align: center;
     border-radius: 30px;
-
 }
 
 table{
@@ -211,7 +207,7 @@ td{
 
 .bottomButton{
     width: 600px; 
-    height: 50px;
+    height: 70px;
     display: flex;
     justify-content: flex-end;
     flex-wrap: nowrap;
